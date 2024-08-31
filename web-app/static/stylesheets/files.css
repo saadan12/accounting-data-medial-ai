@@ -1,0 +1,270 @@
+.files-sub-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 12px 10px 12px !important;
+    border: 1px solid #0000001A;
+}
+a{
+    text-decoration: none !important;
+}
+.add-button{
+    padding: 7px;
+    gap: 4px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #0000001A;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.files-sub-nav p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+.search {
+    position: relative;
+    margin: 0px 12px 0px 12px;
+}
+  
+.fa-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 28px;
+}
+.search input::placeholder{
+    color: #5F6368;
+}
+.search input {
+    padding: 8px 35px 8px 16px;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid #0000001A;
+    opacity: 0px;
+    background-color: #FAFAFA;
+}
+
+.checked-row {
+    background-color: #ECECEC !important;
+}
+
+.empty-files{
+    /* display: flex;
+    width: 20%;
+    margin: 15vh 0px 0px 80vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 58vh 0vh 0vh 0vh 15vh !important;
+    align-items: center; */
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* margin: 58vh 0vh 0vh 0vh 15vh !important; */
+    align-content: center;
+    flex-wrap: wrap;
+
+
+}
+.box{
+    text-align: center;
+    width: 8%;
+}
+.empty-files p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+    color: #202123;
+}
+.empty-files span{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6D7175;
+}
+
+.xero-connect{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.xero-title{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    color: #000000 !important;
+}
+.xero-desc{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    color: #5F6368 !important;
+}
+.connection-button{
+    width: 100%;
+    
+    border: none;
+    background-color: #059FFF;
+    padding: 8px;
+    gap: 4px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+.disconnect{
+    color: #5F6368;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    gap: 4px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.acc-side-menu{
+    margin: 8px 0px 0px 5px;
+    padding: 8px 7px 10px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.form-fields{
+    margin-left: 45px;
+}
+.two-fa{
+    
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #ECECEC;
+}
+.acc-info{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #5F6368;
+}
+.acc-field{ 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #000000;
+}
+.expire-subscription{
+    margin-bottom: 0px;
+    border: 1px solid #0000001A;
+    background-color: #FAFAFA;
+    padding: 8px 10px 8px 10px;
+    gap: 10px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.account-button{
+    background: none;
+    border: none;
+    color: #059FFF;
+}
+
+
+#sidebar {
+    position: relative;
+    background-color: #FAFAFA;
+    border: 1px solid #0000001A;
+}
+@media (max-width: 991px) {
+#sidebar {
+    position: fixed !important; 
+    width: 250px; 
+    height: 100vh;
+    z-index: 1000;
+    overflow-y: auto;
+    background-color: #FAFAFA;
+    border: 1px solid #0000001A;
+    display: block; 
+}
+}
+  
+
+
+
+@media (max-width: 320px) {
+    .account-setting-width{
+        width: 95%;
+    }
+    .box{
+        text-align: center;
+        width: 50%;
+    }
+}
+@media (min-width: 320px) {
+    .account-setting-width{
+        width: 95%;
+    }
+    .box{
+        text-align: center;
+        width: 50%;
+    }
+}
+@media (min-width: 480px) {
+    .account-setting-width{
+        width: 95%;
+    }
+    .box{
+        text-align: center;
+        width: 50%;
+    }
+}
+@media (min-width: 576px) {
+    .account-setting-width{
+        width: 95%;
+    }
+    .box{
+        text-align: center;
+        width: 30%;
+    }
+}
+@media (min-width: 768px) {
+    .account-setting-width{
+        width: 75%;
+    }
+    .box{
+        text-align: center;
+        width: 20%;
+    }
+    
+}
+@media (min-width: 992px) {
+    .box{
+        text-align: center;
+        width: 15%;
+    }
+}
+@media (min-width: 12000px) {
+    .box{
+        text-align: center;
+        width: 10%;
+    }
+    
+}
+@media (min-width: 1400px) {}

@@ -1,0 +1,398 @@
+
+.nav-button{
+    padding: 8px 16px 8px 8px;
+    gap: 8px;
+    color: #000000;
+    border-radius: 8px;
+    opacity: 0px;
+    text-decoration: none;
+}
+.nav-toggle{
+    background: none;
+    border: none;
+}
+.toggle-dropdown{
+    padding: 16px !important;
+    background-color: #FFFFFF !important;
+    border-radius: 16px !important;
+    border: 1px solid #0000001A !important;
+    left: -50px !important;
+}
+.active-nav{
+    background-color: #ECECEC;
+}
+.financial-heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+.medial-name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+.questions{
+    padding: 8px 24px 8px 24px;
+    gap: 16px;
+    border-radius: 10px;
+    border: 1px solid #0000001A
+}
+
+.sparkle-size{
+    height: 20px;
+    width: 20px;
+}
+.questions span{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+.primary-button{
+    color: white;
+    background-color: #059FFF;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 12px;
+    opacity: 0px;
+    text-decoration: none;
+}
+.upload-files{
+    font-size: 16px;
+    font-weight: 700;
+    color: #5F6368;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+.chat-message {
+    border: 1px solid #0000001A;
+    padding: 0px;
+    border-radius: 10px;
+    
+    textarea {
+      width: 100%;
+      border: none;
+      padding: 10px 10px;
+      border-radius: 10px 10px 0px 0px;
+      border-bottom: 1px solid #0000001A;
+      resize: none;
+      outline: none;
+    }
+    
+    
+    .send-icon {
+      float: right;
+      border: none;
+      cursor: pointer;
+      background: white;    
+      border-radius: 10px;  
+    
+    }
+}
+
+
+
+.select-chat{
+    color: #000000;
+    border: 1px solid #0000001A;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 10px 7px 10px !important;
+    margin-bottom: 5px;
+}
+
+.history-heading{
+    width: Fill (284px)px;
+    height: Hug (48px)px;
+    color: #000000;
+    font-size: 16px;
+    margin-left: -12px;
+    font-weight: 600;
+    padding: 12px 8px 12px 16px;
+    gap: 10px;
+    opacity: 0px;
+}
+.history-sub-heading{
+    width: 100% !important;
+    margin-left: -12px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px 10px 8px;
+    gap: 10px;
+    opacity: 0px;
+}
+.history-document{
+    width: 100%;
+    margin-bottom: 0px;
+    height: Hug (48px)px;
+    margin-left: -12px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px 10px 8px;
+    gap: 10px;
+    opacity: 0px;
+}
+.sub-heading{
+    height: 300px;
+    padding: 8px;
+    line-height: 28px;
+    gap: 8px;
+    opacity: 0px;
+}
+.active{
+    background-color: #ECECEC;
+    border-radius: 8px;
+    width: 100%;
+}
+.bars-icon:active,.bars-icon:active{
+    outline: none;
+    box-shadow: none;
+}
+.chat-history-scrool {
+    height:80vh;
+    overflow-y:scroll;
+}
+.document-chat-histoy{
+    height: 42vh;
+    overflow-y:scroll;
+}
+.side-upload-document{
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+}
+
+.question-text{
+    height: Hug (392px)px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 24px;
+    opacity: 0px;
+    color: #FFFFFF;
+    background-color: #059FFF;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    
+    
+}
+.ai-response-text{
+    height: Hug (392px)px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color: #F4F4F4;
+    font-size: 14px;
+}
+.chat-body{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* darg and drop UI CSS */
+
+.containers{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-drop-area {
+    position: relative;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0000001A;
+    width: 350px;
+    max-width: 100%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    transition: .3s;
+}
+.file-drop-area.is-active {
+ background-color: #fff;
+}
+
+.fake-btn {
+    flex-shrink: 0;
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-bottom: 0px !important;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.file-msg {
+    color: #9699b3;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-delete {
+    display: none;
+    position: absolute;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.item-delete:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: .3s;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg fill='%23bac1cb' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 438.5 438.5'%3e%3cpath d='M417.7 75.7A8.9 8.9 0 00411 73H323l-20-47.7c-2.8-7-8-13-15.4-18S272.5 0 264.9 0h-91.3C166 0 158.5 2.5 151 7.4c-7.4 5-12.5 11-15.4 18l-20 47.7H27.4a9 9 0 00-6.6 2.6 9 9 0 00-2.5 6.5v18.3c0 2.7.8 4.8 2.5 6.6a8.9 8.9 0 006.6 2.5h27.4v271.8c0 15.8 4.5 29.3 13.4 40.4a40.2 40.2 0 0032.3 16.7H338c12.6 0 23.4-5.7 32.3-17.2a64.8 64.8 0 0013.4-41V109.6h27.4c2.7 0 4.9-.8 6.6-2.5a8.9 8.9 0 002.6-6.6V82.2a9 9 0 00-2.6-6.5zm-248.4-36a8 8 0 014.9-3.2h90.5a8 8 0 014.8 3.2L283.2 73H155.3l14-33.4zm177.9 340.6a32.4 32.4 0 01-6.2 19.3c-1.4 1.6-2.4 2.4-3 2.4H100.5c-.6 0-1.6-.8-3-2.4a32.5 32.5 0 01-6.1-19.3V109.6h255.8v270.7z'/%3e%3cpath d='M137 347.2h18.3c2.7 0 4.9-.9 6.6-2.6a9 9 0 002.5-6.6V173.6a9 9 0 00-2.5-6.6 8.9 8.9 0 00-6.6-2.6H137c-2.6 0-4.8.9-6.5 2.6a8.9 8.9 0 00-2.6 6.6V338c0 2.7.9 4.9 2.6 6.6a8.9 8.9 0 006.5 2.6zM210.1 347.2h18.3a8.9 8.9 0 009.1-9.1V173.5c0-2.7-.8-4.9-2.5-6.6a8.9 8.9 0 00-6.6-2.6h-18.3a8.9 8.9 0 00-9.1 9.1V338a8.9 8.9 0 009.1 9.1zM283.2 347.2h18.3c2.7 0 4.8-.9 6.6-2.6a8.9 8.9 0 002.5-6.6V173.6c0-2.7-.8-4.9-2.5-6.6a8.9 8.9 0 00-6.6-2.6h-18.3a9 9 0 00-6.6 2.6 8.9 8.9 0 00-2.5 6.6V338a9 9 0 002.5 6.6 9 9 0 006.6 2.6z'/%3e%3c/svg%3e");
+}
+
+.item-delete:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: #f3dbff;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.item-delete:hover:after {
+    transform: translate(-50%, -50%) scale(2.2);
+    opacity: 1;
+}
+
+.item-delete:hover:before {
+ background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg fill='%234f555f' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 438.5 438.5'%3e%3cpath d='M417.7 75.7A8.9 8.9 0 00411 73H323l-20-47.7c-2.8-7-8-13-15.4-18S272.5 0 264.9 0h-91.3C166 0 158.5 2.5 151 7.4c-7.4 5-12.5 11-15.4 18l-20 47.7H27.4a9 9 0 00-6.6 2.6 9 9 0 00-2.5 6.5v18.3c0 2.7.8 4.8 2.5 6.6a8.9 8.9 0 006.6 2.5h27.4v271.8c0 15.8 4.5 29.3 13.4 40.4a40.2 40.2 0 0032.3 16.7H338c12.6 0 23.4-5.7 32.3-17.2a64.8 64.8 0 0013.4-41V109.6h27.4c2.7 0 4.9-.8 6.6-2.5a8.9 8.9 0 002.6-6.6V82.2a9 9 0 00-2.6-6.5zm-248.4-36a8 8 0 014.9-3.2h90.5a8 8 0 014.8 3.2L283.2 73H155.3l14-33.4zm177.9 340.6a32.4 32.4 0 01-6.2 19.3c-1.4 1.6-2.4 2.4-3 2.4H100.5c-.6 0-1.6-.8-3-2.4a32.5 32.5 0 01-6.1-19.3V109.6h255.8v270.7z'/%3e%3cpath d='M137 347.2h18.3c2.7 0 4.9-.9 6.6-2.6a9 9 0 002.5-6.6V173.6a9 9 0 00-2.5-6.6 8.9 8.9 0 00-6.6-2.6H137c-2.6 0-4.8.9-6.5 2.6a8.9 8.9 0 00-2.6 6.6V338c0 2.7.9 4.9 2.6 6.6a8.9 8.9 0 006.5 2.6zM210.1 347.2h18.3a8.9 8.9 0 009.1-9.1V173.5c0-2.7-.8-4.9-2.5-6.6a8.9 8.9 0 00-6.6-2.6h-18.3a8.9 8.9 0 00-9.1 9.1V338a8.9 8.9 0 009.1 9.1zM283.2 347.2h18.3c2.7 0 4.8-.9 6.6-2.6a8.9 8.9 0 002.5-6.6V173.6c0-2.7-.8-4.9-2.5-6.6a8.9 8.9 0 00-6.6-2.6h-18.3a9 9 0 00-6.6 2.6 8.9 8.9 0 00-2.5 6.6V338a9 9 0 002.5 6.6 9 9 0 006.6 2.6z'/%3e%3c/svg%3e");
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+    }
+.file-input:focus {
+    outline: none;
+}
+
+
+.file-list {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.file-list li {
+    padding: 5px 0;
+    /* border-bottom: 1px solid #ddd; */
+    font-size: 14px;
+    color: #333;
+}
+/* CSS to hide elements */
+.hidden {
+    display: none !important;
+}
+
+.set-space{
+    margin-top: -165px !important;
+}
+.modal-title-style{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+.file-info{
+    border-radius: 5px;
+    background: #FAFAFA;
+    margin: 10px 57px 0px 59px;
+    padding: 10px 80px 10px 0px;
+}
+.file-info p{
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.white-button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #5F6368;
+    text-align: left;
+    background-color: white;
+    border: none;
+}
+
+@media (max-width: 576px) {
+    .text-width {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .text-width {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-width {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-width {
+        position: fixed;
+        bottom: 0;
+        width: 75%;
+    }
+}
+
