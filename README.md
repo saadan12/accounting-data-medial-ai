@@ -19,6 +19,11 @@ Medial-AI seamlessly connects with your Xero data, enabling smarter decision-mak
 <img width="500" alt="medial-ai-flow-digram" src="https://github.com/user-attachments/assets/8f2d3eda-e4d4-4d4c-b73e-1cbfb7ba000c">
 
 
+## High-Level Architecture
+The solution integrates OpenAI's ChatGPT-4 with Azure AI Search to interact with Xero Data. Data is sourced from Files, Xero, and processed through AI models and SQL Server for seamless data integration, with Django Web App providing an intuitive interface for end-users.
+
+<img width="500" alt="accounting-data-medial-ai" src="https://github.com/user-attachments/assets/4e9eba9d-2b33-4814-9aa2-bbcd0c11a7c6">
+
 
 ## Project Overview
 
