@@ -4,9 +4,8 @@ Medial-AI seamlessly connects with your Xero data, enabling smarter decision-mak
 
 
 ## Project Industry
-**Finance & Accounting Software**  
-Medial-AI enables users to chat to optimize their financial data management and gain deeper insights into their accounting processes.
 
+*Finance & Accounting Software*
 
 
 ## Media & Links:
