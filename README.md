@@ -2,12 +2,22 @@
 
 Medial-AI seamlessly connects with your Xero data, enabling smarter decision-making through AI-powered analysis and an intuitive chatbot interface.
 
-**Project Link:** https://medial-webapp-dev.azurewebsites.net/
-
 
 ## Project Industry
 **Finance & Accounting Software**  
 Medial-AI enables users to chat to optimize their financial data management and gain deeper insights into their accounting processes.
+
+
+
+## Media & Links:
+
+*Project Link:* https://medial-webapp-dev.azurewebsites.net/
+
+*Loom Video:* https://medial-webapp-dev.azurewebsites.net/
+
+*Overview Image:*
+
+<img width="500" alt="medial-ai-flow-digram" src="https://github.com/user-attachments/assets/8f2d3eda-e4d4-4d4c-b73e-1cbfb7ba000c">
 
 
 
@@ -48,29 +58,30 @@ Medial-AI automates the retrieval and processing of your Xero data, providing re
   - GitHub
   - GitHub Actions
 
+
 ## Screenshots
 
 - **Medial AI Landing Page:** User can see the main landing page of Medial AI, providing an overview of its features and functionalities.
-<img width="696" alt="media-ai-landing-page" src="https://github.com/user-attachments/assets/965e26b3-c9be-48f3-9e54-840b8c8b4180">
+<img width="500" alt="media-ai-landing-page" src="https://github.com/user-attachments/assets/965e26b3-c9be-48f3-9e54-840b8c8b4180">
 
-------------------------------------
+---
 - **Medial AI Accounting Setting:** User can access and configure accounting settings specific to Xero integration.
-<img width="816" alt="medial-ai-account-settings" src="https://github.com/user-attachments/assets/fb0584a4-9a8c-4068-bb1f-1f3429c44909">
+<img width="500" alt="medial-ai-account-settings" src="https://github.com/user-attachments/assets/fb0584a4-9a8c-4068-bb1f-1f3429c44909">
 
 
-------------------------------------
+---
 - **Medial Chat with Xero Content:** User can engage with the Medial AI chatbot, interacting with Xero data for insights and analysis.
-<img width="598" alt="medial-ai-chat-content" src="https://github.com/user-attachments/assets/ea565662-d83d-4220-b791-312ca131fa64">
+<img width="500" alt="medial-ai-chat-content" src="https://github.com/user-attachments/assets/ea565662-d83d-4220-b791-312ca131fa64">
 
 
-------------------------------------
+---
 - **Medial AI Chat Default without selecting any connector:** User can view the default chat interface, awaiting connector selection.
-<img width="717" alt="medial-ai-chatbot-default" src="https://github.com/user-attachments/assets/19965114-4146-46d5-8351-182d5713bdfc">
+<img width="500" alt="medial-ai-chatbot-default" src="https://github.com/user-attachments/assets/19965114-4146-46d5-8351-182d5713bdfc">
 
 
-------------------------------------
+---
 - **Medial Connectors:** User can manage and configure various connectors available within Medial AI for seamless data integration.
-<img width="760" alt="medial-ai-connectors" src="https://github.com/user-attachments/assets/62395f48-17ff-46c5-834d-2e5d9f7bdd92">
+<img width="500" alt="medial-ai-connectors" src="https://github.com/user-attachments/assets/62395f48-17ff-46c5-834d-2e5d9f7bdd92">
 
 
 
