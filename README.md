@@ -1,5 +1,3 @@
-<img width="760" alt="medial-ai-connectors" src="https://github.com/user-attachments/assets/9459e247-1646-480e-8581-30cf26d1b71f"># Medial-AI
-
 ## Empower Your Business with Data-Driven Insights
 
 Medial-AI seamlessly connects with your Xero data, enabling smarter decision-making through AI-powered analysis and an intuitive chatbot interface.
